@@ -1,0 +1,9 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[options]
+module.name_mapper='^tree-helpers$' -> '<PROJECT_ROOT>'
+module.name_mapper='^tree-helpers\/\(.*\)$' -> '<PROJECT_ROOT>/\1'
