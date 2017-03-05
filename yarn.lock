@@ -974,8 +974,8 @@ camelcase@^2.0.0, camelcase@^2.1.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-2.1.1.tgz#7c1d16d679a1bbe59ca02cacecfb011e201f5a1f"
 
 caniuse-db@^1.0.30000631:
-  version "1.0.30000631"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000631.tgz#8aa6f65cff452c4aba1c2aaa1e724102fbb9114f"
+  version "1.0.30000632"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000632.tgz#12e3f5c114d19de58e74dec478a327fb2eeb6bcb"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -1511,9 +1511,9 @@ eslint-plugin-standard@*:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-2.1.1.tgz#97960b1537e1718bb633877d0a650050effff3b0"
 
-eslint@*:
-  version "3.17.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.17.0.tgz#e2704b09c5bae9fb49ee8bafeea3832c7257d498"
+eslint@3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.15.0.tgz#bdcc6a6c5ffe08160e7b93c066695362a91e30f2"
   dependencies:
     babel-code-frame "^6.16.0"
     chalk "^1.1.3"
@@ -3395,14 +3395,14 @@ standard-engine@*:
     minimist "^1.1.0"
     pkg-conf "^2.0.0"
 
-standard-esnext@^1.0.3:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/standard-esnext/-/standard-esnext-1.0.10.tgz#a6d81f77853a9ddfac9d8f80f526fc011dcde586"
+standard-esnext@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/standard-esnext/-/standard-esnext-1.0.12.tgz#d4ed92e652131cc5355481598745e5eff2589bac"
   dependencies:
     babel-core "*"
     babel-eslint "*"
     babel-plugin-module-resolver "*"
-    eslint "*"
+    eslint "3.15.0"
     eslint-config-standard "*"
     eslint-config-standard-jsx "*"
     eslint-import-resolver-babel-module "*"

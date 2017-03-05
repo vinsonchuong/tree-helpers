@@ -6,7 +6,7 @@ test('converting an existing data structure to a tree', (t) => {
   const tree = buildTree({
     root: 'html',
 
-    * getChildren(tagName) {
+    * getChildren (tagName) {
       if (tagName === 'html') {
         yield 'head'
         yield 'body'
@@ -21,7 +21,7 @@ test('converting an existing data structure to a tree', (t) => {
       }
     },
 
-    makeNode(tagName, children) {
+    makeNode (tagName, children) {
       return {
         tagName,
         children
