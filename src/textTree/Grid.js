@@ -2,6 +2,10 @@
 
 export type Grid = Array<string>
 
+export function gridFromString (string: string): Grid {
+  return string.split('\n').slice(1, -1)
+}
+
 export class Cursor {
   row: number
   column: number
