@@ -1,5 +1,6 @@
 /* @flow */
-import type {Grid, Cursor} from 'tree-helpers/src/textTree/Grid'
+import type {Grid} from 'tree-helpers/src/textTree/Grid'
+import type {Cursor} from 'tree-helpers/src/textTree/Cursor'
 
 export default function (
   grid: Grid,

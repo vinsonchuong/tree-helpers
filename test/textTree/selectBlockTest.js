@@ -1,6 +1,6 @@
 /* @flow */
 import test from 'ava'
-import {cursor} from 'tree-helpers/src/textTree/Grid'
+import {cursor} from 'tree-helpers/src/textTree/Cursor'
 import selectBlock from 'tree-helpers/src/textTree/selectBlock'
 
 test('selecting a block from an empty grid', (t) => {

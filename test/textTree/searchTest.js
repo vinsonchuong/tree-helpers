@@ -1,6 +1,6 @@
 /* @flow */
 import test from 'ava'
-import {selection} from 'tree-helpers/src/textTree/Grid'
+import {selection} from 'tree-helpers/src/textTree/Selection'
 import search from 'tree-helpers/src/textTree/search'
 
 test('searching an empty grid', (t) => {

@@ -1,6 +1,7 @@
 /* @flow */
-import type {Grid, Selection} from 'tree-helpers/src/textTree/Grid'
-import {selection} from 'tree-helpers/src/textTree/Grid'
+import type {Grid} from './Grid'
+import type {Selection} from './Selection'
+import {selection} from './Selection'
 
 export default function (
   grid: Grid,
