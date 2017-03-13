@@ -7,8 +7,8 @@ export default function (
   topLeft: Cursor,
   bottomRight: Cursor
 ): Grid {
-  return new Grid(
-      grid.rows.slice(topLeft.row, bottomRight.row + 1)
+  const rows = grid.rows.slice(topLeft.row, bottomRight.row + 1)
     .map(row => row.slice(topLeft.column, bottomRight.column + 1))
-  )
+
+  return new Grid(rows, grid, topLeft, bottomRight)
 }
