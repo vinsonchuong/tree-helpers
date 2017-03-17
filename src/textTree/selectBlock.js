@@ -1,6 +1,6 @@
 /* @flow */
 import Grid from './Grid'
-import type {Cursor} from './Cursor'
+import type Cursor from './Cursor'
 
 export default function (
   grid: Grid,

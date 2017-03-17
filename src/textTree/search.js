@@ -1,6 +1,6 @@
 /* @flow */
 import Grid from './Grid'
-import type {Selection} from './Selection'
+import type Selection from './Selection'
 import {selection} from './Selection'
 
 export default function (

@@ -1,6 +1,6 @@
 /* @flow */
 
-export class Cursor {
+export default class Cursor {
   row: number
   column: number
 

@@ -1,5 +1,5 @@
 /* @flow */
-import type {Cursor} from './Cursor'
+import type Cursor from './Cursor'
 
 export default class Grid {
   rows: Array<string>

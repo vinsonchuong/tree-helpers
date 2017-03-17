@@ -1,8 +1,8 @@
 /* @flow */
-import type {Cursor} from './Cursor'
+import type Cursor from './Cursor'
 import {cursor} from './Cursor'
 
-export class Selection {
+export default class Selection {
   start: Cursor
   end: Cursor
 
